@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Para melhor controle do tamanho dos elementos */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    height: 100%;
+}
+
+.fundo-nav {
+    margin-top: 2px;
+}
+
+.logo img {
+    padding-right: 70px;
+    margin-left: 80px;
+    min-height: 45px;
+    min-width: 176px;
+}
+
+.menu {
+    list-style: none;
+    gap: 32px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#o {
+    color: black;
+}
+
+.menu-item a {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 14px 4px 6px; /* Combina padding em uma única linha */
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(0, 65, 170);
+    fill: rgb(0, 65, 170);
+    line-height: 20px;
+    background-color: transparent;
+    list-style: none;
+}
+
+.menu-item.active a::after {
+    content: "";
+    display: block;
+    width: 140%;
+    height: 3px;
+    background-color: #2F9FEA;
+    position: absolute;
+    bottom: 0;
+    left: -12px;
+}
+
+.btn-1 {
+    width: 220px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 8px;
+    margin-left: 120px;
+    border-color: #2f9fea00;
+    background-color: #2F9FEA;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+.btn-1 a {
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-decoration-line: none;
+}
+
+.img {
+    position: relative;
+    top: -50px;
+    height: 1200px;
+    z-index: -1;
+}
+
+.init-1 {
+    height: 100%;
+}
+
+.init-2 {
+    width: 100%;
+    height: 900px;
+    background-color: #0041aa;
+    top: -60px;
+    position: relative;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    header {
+        width: 90%; /* Reduz margem nas telas médias */
+    }
+
+    .menu {
+        flex-direction: column; /* Alinha os itens em coluna */
+        gap: 10px; /* Reduz o espaçamento */
+        margin-left: 0; /* Remove margem esquerda */
+        text-align: center;
+    }
+
+    button {
+        margin-left: 0; /* Centraliza o botão */
+        align-self: center;
+    }
+
+    section {
+        height: 600px; /* Reduz altura de seções */
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        font-size: 14px; /* Diminui o tamanho do texto */
+    }
+
+    button {
+        width: 180px; /* Reduz o tamanho do botão */
+    }
+
+    .logo {
+        padding-right: 20px; /* Ajusta espaçamento do logo */
+    }
+
+    section {
+        height: 500px; /* Ajusta altura */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        width: 95%; /* Preenche quase toda a largura */
+    }
+
+    .menu {
+        flex-direction: column; /* Alinha itens verticalmente */
+        gap: 8px;
+    }
+
+    button {
+        width: 160px; /* Reduz botão ainda mais */
+        font-size: 14px; /* Diminui tamanho da fonte */
+    }
+
+    section {
+        height: 400px; /* Ajusta altura para dispositivos pequenos */
+    }
+}
+
+
+
+.base {
+    background-color: #ffffff00;
+    position: relative;
+    bottom: 1150px;
+    display: flex;
+    justify-content: center;
+}
+
+.highlight-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1300px;
+    background-color: #ffffff00;
+}
+
+.highlight-text {
+    max-width: 50%;
+}
+
+.highlight-text h1 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.highlight-text h1 span {
+    color: #2F9FEA;
+    font-weight: 600;
+}
+
+
+
+.btn {
+    background-color: #0041AA;
+    color: #ffffff;
+    border: none;
+    padding: 16px 40px 16px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    text-decoration: inherit;
+    box-sizing: border-box;
+}
+
+.highlight-text button:hover {
+    background-color: #2F9FEA;
+}
+
+.highlight-text .btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.highlight-image img {
+    min-width: 657px;
+    max-width: 800px;
+    border-radius: 10px;
+}
