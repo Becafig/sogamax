@@ -25,7 +25,7 @@ header {
     padding-right: 70px;
     margin-left: 80px;
     min-height: 45px;
-    min-width: 176px;
+    width: 250px;
 }
 
 .menu {
