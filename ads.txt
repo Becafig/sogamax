@@ -1,1 +1,2 @@
-<domain do vendedor>, <ID do vendedor>, <tipo de conta>, <ID do acordo (opcional)>
+google.com, pub-xxxxxxxxxxxxxxxx, DIRECT, f08c47fec0942fa0
+appnexus.com, 12345, RESELLER
