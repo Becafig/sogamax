@@ -24,8 +24,7 @@ header {
 .logo img {
     padding-right: 70px;
     margin-left: 80px;
-    width: 176px;
-    min-width: 176px;
+    min-width: 246px;
     height: 40px;
 }
 
