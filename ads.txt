@@ -1,0 +1,1 @@
+<domain do vendedor>, <ID do vendedor>, <tipo de conta>, <ID do acordo (opcional)>
