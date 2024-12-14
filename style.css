@@ -95,15 +95,13 @@ header {
     z-index: -1;
 }
 
-.init-1 {
-    max-height: 1100px;
-}
-
 .init-2 {
     width: 100%;
     background-color: #0041aa;
     position: relative;
-    padding: 50px 20px; /* Adiciona um espaçamento interno */
+    padding: 50px 20px;
+    z-index: 100;
+    top: -600px;
 }
 
 .container {
