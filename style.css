@@ -24,6 +24,9 @@ header {
 .logo img {
     padding-right: 70px;
     margin-left: 80px;
+    width: 176px;
+    min-width: 176px;
+    height: 40px;
 }
 
 .menu {
@@ -339,4 +342,6 @@ header {
     min-width: 657px;
     max-width: 800px;
     border-radius: 10px;
+    width: 657px;
+    height: 515px;
 }
