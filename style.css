@@ -101,6 +101,8 @@ header {
     position: relative;
     top: -50px;
     z-index: -1;
+    height: 1128px;
+    width:1440px;
 }
 
 .init-2 {
