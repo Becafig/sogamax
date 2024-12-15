@@ -33,6 +33,8 @@ header {
 .logo img {
     padding-right: 70px;
     margin-left: 80px;
+    min-width: 246px;
+    height: 40px;
 }
 
 .menu {
@@ -100,9 +102,9 @@ header {
 .img {
     position: relative;
     top: -50px;
-    z-index: -1;
     height: 1128px;
-    width:1440px;
+    z-index: -1;
+    width: 1440px;
 }
 
 .init-2 {
@@ -346,6 +348,8 @@ header {
 }
 
 .highlight-image img {
+    min-width: 657px;
+    max-width: 800px;
     border-radius: 10px;
     width: 657px;
     height: 515px;
@@ -361,6 +365,11 @@ header {
 
 .mapa {
     padding-left: 70px;
+}
+
+.mapa img {
+    width: 602px;
+    height: 602px;
 }
 
 .sobre {
