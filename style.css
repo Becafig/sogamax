@@ -1,9 +1,18 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Sogamax-Si/Poppins-Regular.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+
+
 
 body {
     display: flex;
@@ -44,7 +53,7 @@ header {
 
 .menu-item a {
     position: relative;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 14px 4px 6px; /* Combina padding em uma única linha */
     font-size: 17px;
     font-weight: 500;
@@ -78,7 +87,7 @@ header {
     color: aliceblue;
     font-size: 16px;
     font-weight: 500;
-    font-family: "Poppins" sans-serif;
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
 }
 
@@ -86,14 +95,14 @@ header {
     color: aliceblue;
     font-size: 17px;
     font-weight: 600;
-    font-family: "Poppins" sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-decoration-line: none;
 }
 
 .img {
     position: relative;
     top: -50px;
-    height: 1128px;
+    height: 1200px;
     z-index: -1;
     width: 1440px;
 }
@@ -298,7 +307,7 @@ header {
 }
 
 .highlight-text h1 {
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 40px;
     font-weight: 400;
     line-height: 140%;
@@ -323,7 +332,7 @@ header {
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-family: "Poppins", Sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-size: 20px;
     text-decoration: inherit;
     box-sizing: border-box;
