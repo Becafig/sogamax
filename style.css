@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Poppins';
-    src: url('../Sogamax-Si/Poppins-Regular.woff') format('truetype');
+    src: url('Poppins-Regular.woff') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
