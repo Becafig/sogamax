@@ -185,8 +185,8 @@ header {
 
 .metric-item {
     text-align: center;
-    flex: 1 1 calc(33% - 20px); /* Distribui os itens em 3 colunas */
-    max-width: 220px; /* Limita a largura máxima */
+    flex: 1 1 calc(33% - 20px);
+    max-width: 220px;
 }
 
 .metric-number {
@@ -200,15 +200,14 @@ header {
     font-weight: 600;
 }
 
-/* Responsividade */
 @media (max-width: 1024px) {
     .h2 {
         font-size: 42px;
-        text-align: center; /* Centraliza o título */
+        text-align: center;
     }
 
     .metric-item {
-        flex: 1 1 calc(50% - 20px); /* Reduz para 2 colunas */
+        flex: 1 1 calc(50% - 20px);
     }
 }
 
@@ -222,7 +221,7 @@ header {
     }
 
     .metric-item {
-        flex: 1 1 100%; /* Cada item ocupa a largura inteira */
+        flex: 1 1 100%;
         max-width: none;
     }
 }
@@ -251,61 +250,61 @@ header {
 /* Responsividade */
 @media (max-width: 1024px) {
     header {
-        width: 90%; /* Reduz margem nas telas médias */
+        width: 90%; 
     }
 
     .menu {
-        flex-direction: column; /* Alinha os itens em coluna */
-        gap: 10px; /* Reduz o espaçamento */
-        margin-left: 0; /* Remove margem esquerda */
+        flex-direction: column;
+        gap: 10px; 
+        margin-left: 0;
         text-align: center;
     }
 
     button {
-        margin-left: 0; /* Centraliza o botão */
+        margin-left: 0; 
         align-self: center;
     }
 
     section {
-        height: 600px; /* Reduz altura de seções */
+        height: 600px; 
     }
 }
 
 @media (max-width: 768px) {
     .menu {
-        font-size: 14px; /* Diminui o tamanho do texto */
+        font-size: 14px;
     }
 
     button {
-        width: 180px; /* Reduz o tamanho do botão */
+        width: 180px;
     }
 
     .logo {
-        padding-right: 20px; /* Ajusta espaçamento do logo */
+        padding-right: 20px;
     }
 
     section {
-        height: 500px; /* Ajusta altura */
+        height: 500px;
     }
 }
 
 @media (max-width: 480px) {
     header {
-        width: 95%; /* Preenche quase toda a largura */
+        width: 95%;
     }
 
     .menu {
-        flex-direction: column; /* Alinha itens verticalmente */
+        flex-direction: column;
         gap: 8px;
     }
 
     button {
-        width: 160px; /* Reduz botão ainda mais */
-        font-size: 14px; /* Diminui tamanho da fonte */
+        width: 160px;
+        font-size: 14px;
     }
 
     section {
-        height: 400px; /* Ajusta altura para dispositivos pequenos */
+        height: 400px;
     }
 }
 
@@ -411,4 +410,25 @@ header {
     font-size: 20px;
     font-weight: 200;
     line-height: 150%;
+}
+
+.manifesto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.manifesto h3 { 
+  font-family: 'Poppins', Sans-serif;
+  color: rgb(0, 65, 170);
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 64px;
+}
+
+.manifesto iframe {
+    margin-top: 15px;
+    width: 70%;
+    border-radius: 25px;
 }
