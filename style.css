@@ -660,7 +660,7 @@ p img {
     display: flex;
     align-items: center;
     gap: 15px;
-    padding: 5px;
+    padding-top: 3px;
 }
 
 .contato-info p a {
