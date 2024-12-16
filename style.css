@@ -602,6 +602,11 @@ header {
     flex-wrap: wrap;
 }
 
+.logo-footer {
+    width: 176px;
+    height: 40px;
+}
+
 .foot-sec {
     flex: 1;
     margin: 10px 20px;
@@ -642,6 +647,11 @@ header {
 }
 
 p img {
+    width: 32px;
+    height: 32px;
+}
+
+#img-contato {
     width: 32px;
     height: 32px;
 }
@@ -689,6 +699,11 @@ p img {
     font-size: 20px;
     margin-right: 15px;
     transition: color 0.3s;
+    width: 32px;
+    height: 32px;
+}
+
+.social-icones a img{
     width: 32px;
     height: 32px;
 }
