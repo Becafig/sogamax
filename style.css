@@ -126,6 +126,11 @@ header {
     height: 1128px;
 }
 
+#img-fundo img {
+    width: 1440px;
+    height: 1128px;
+}
+
 .init-2 {
     width: 100%;
     background-color: #0041aa;
