@@ -54,7 +54,7 @@ header {
 .menu-item a {
     position: relative;
     font-family: 'Poppins', sans-serif;
-    padding: 14px 4px 6px; /* Combina padding em uma única linha */
+    padding-bottom: 3px;
     font-size: 17px;
     font-weight: 500;
     text-decoration: none;
