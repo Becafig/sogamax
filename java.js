@@ -68,3 +68,11 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const emailUser = "contato";
+    const emailDomain = "sogamax.com.br";
+    const emailDisplay = document.getElementById('email-display');
+
+    emailDisplay.innerHTML = `<a href="mailto:${emailUser}@${emailDomain}">${emailUser}@${emailDomain}</a>`;
+});
