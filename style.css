@@ -429,8 +429,7 @@ header {
 
 .youtube-placeholder {
     margin-top: 15px;
-    width: 100%;
-    max-width: 1000px;
+    width: 1000px;
     aspect-ratio: 16 / 9;
     cursor: pointer;
     display: flex;
@@ -442,8 +441,8 @@ header {
 }
 
 .youtube-placeholder img {
-    width: 100%;
-    height: 100%;
+    width: 1000px;
+    height: 563px;
     object-fit: cover;
 }
 
