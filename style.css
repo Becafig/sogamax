@@ -613,7 +613,6 @@ header {
     max-width: 400px;
 }
 
-/* Logo e Navegação */
 .logo-nav {
     text-align: center;
 }
@@ -621,15 +620,14 @@ header {
 .nav ul {
     list-style: none;
     display: flex;
-    flex-wrap: wrap; /* Permite quebra de linha */
-    justify-content: center; /* Centraliza os itens */
-    gap: 20px 50px; /* Espaçamento entre os itens (vertical e horizontal) */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 50px;
     padding: 0;
     margin-top: 20px;
 }
 
 .nav ul li {
-    /* flex: 0 0 calc(33.33% - 50px); /* Divide os itens em 3 colunas */
     text-align: center;
 }
 
@@ -643,7 +641,7 @@ header {
 
 .nav ul li a:hover {
     color: #00A4FF;
-    border-bottom: 2px solid #00A4FF; /* Linha inferior ao passar o mouse */
+    border-bottom: 2px solid #00A4FF; 
 }
 
 p img {
@@ -663,6 +661,17 @@ p img {
     align-items: center;
     gap: 15px;
     padding: 5px;
+}
+
+.contato-info p a {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+  text-decoration-line: none;
+  color: white;
 }
 
 .contato-info i {
