@@ -62,7 +62,27 @@
 			}
 	</script>
 </head>
-<body>	
+<body>
+	<style>
+	* {
+   	 margin: 0;
+   	 padding: 0;
+   	 box-sizing: border-box;
+   	 font-family: 'Poppins', sans-serif;
+	}
+
+	body {
+   	 display: flex;
+   	 justify-content: center;
+	}
+
+	header {
+   	 height: 100%;
+   	 overflow-x: hidden;
+   	 display: flex;
+   	 flex-direction: column;
+	}
+		</style>		
 	<header>
 		<div class="fundo-nav">
 			<nav>
@@ -79,8 +99,8 @@
 			</nav>			  
 		</div>
 
-		<section class="init-1">
-			<div>
+		<div class="apresenta">
+			<div id="img-fundo">
 				<img class="img" src="imagens/funfo11.webp" alt="Fundo-sogamax">
 			</div>
 			<div class="base">
@@ -94,9 +114,6 @@
 					</div>
 				</div>
 			</div>
-		</section>
-
-		<section class="init-2">
 			<div class="container">
 				<div class="box">
 					<h2 class="h2">Uma jornada de <strong>sucesso e saúde</strong>.</h2>
@@ -124,6 +141,20 @@
 					</div>
 				</div>
 			</div>
+			<div class="init-2">
+				<div class="base-mapa">
+					<div class="mapa">
+						<img src="imagens/MAPA-NOVO-SITE.webp" alt="Mapa-atendimento">
+					</div>
+					<div class="sobre">
+						<h2 id="h2">Estamos presentes em <span>15 estados.</span></h2>
+						<p id="p">Com um compromisso incansável de levar saúde e bem estar a todos os cantos do país, expandindo nossa presença para alcançar o maior número possível de pessoas.</p>
+						<p id="p">Investindo em expansão e inovação, buscamos constantemente maneiras de aprimorar nossos serviços e expandir nossa cobertura. Estamos comprometidos em ser um parceiro confiável em todo o Brasil.</p>
+					</div>
+				</div>
+		</div>
+
+		<!--<div class="init-2">
 			<div class="base-mapa">
 				<div class="mapa">
 					<img src="imagens/MAPA-NOVO-SITE.webp" alt="Mapa-atendimento">
@@ -134,7 +165,7 @@
 					<p id="p">Investindo em expansão e inovação, buscamos constantemente maneiras de aprimorar nossos serviços e expandir nossa cobertura. Estamos comprometidos em ser um parceiro confiável em todo o Brasil.</p>
 				</div>
 			</div>
-		</section>
+		</div>
 
 		<section class="init-3">
 			
@@ -146,7 +177,7 @@
 
 		<section class="init-5">
 			
-		</section>
+		</section> <!-->
 		<div class="fb-share-button" data-href="https://www.sogamax.com.br" data-layout="button_count"></div>
 	</header>
 	<div id="fb-root"></div>
