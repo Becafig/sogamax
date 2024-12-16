@@ -256,14 +256,6 @@ header {
     }
 }
 
-
-
-
-
-
-
-
-/* Responsividade */
 @media (max-width: 1024px) {
     header {
         width: 90%; 
@@ -588,7 +580,7 @@ header {
 }
 
 .footer {
-    background-color: #0047AB; /* Cor azul do fundo */
+    background-color: #0047AB;
     color: #ffffff;
     padding: 30px 0;
     width: 100%;
