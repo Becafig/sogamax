@@ -427,17 +427,10 @@ header {
   line-height: 64px;
 }
 
-.manifesto iframe {
-    margin-top: 15px;
-    width: 70%;
-    height: 563px;
-    border-radius: 25px;
-}
-
 .youtube-placeholder {
-    position: relative;
+    margin-top: 15px;
     width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
     aspect-ratio: 16 / 9;
     cursor: pointer;
     display: flex;
