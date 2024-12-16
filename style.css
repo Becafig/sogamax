@@ -501,8 +501,8 @@ header {
 }
 
 .slide img {
-    width: 250px;
-    height: 250px;
+    width: 236px;
+    height: 236px;
     border-radius: 50%;
     transition: transform 0.3s ease;
 }
