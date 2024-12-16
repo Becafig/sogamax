@@ -1,8 +1,9 @@
 @font-face {
     font-family: 'Poppins';
-    src: url('Poppins-Regular.woff') format('truetype');
+    src: url('Poppins-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 * {
@@ -205,8 +206,7 @@ header {
     }
 
     .metrics {
-        flex-direction: column; /* Coloca os itens em coluna */
-        align-items: center;
+        justify-content: center;
     }
 
     .metric-item {
@@ -312,6 +312,7 @@ header {
 
 .highlight-text h1 {
     font-family: 'Poppins', Sans-serif;
+    min-height: 100px;
     font-size: 40px;
     font-weight: 400;
     line-height: 140%;
