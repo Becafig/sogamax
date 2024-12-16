@@ -67,7 +67,7 @@ header {
     list-style: none;
 }
 
-.menu-item.active a::after {
+.menu-item.ativo a::after {
     content: "";
     display: block;
     width: 140%;
@@ -191,7 +191,7 @@ header {
     font-weight: bold;
 }
 
-.metrics {
+.metrica {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -199,19 +199,19 @@ header {
     width: 100%;
 }
 
-.metric-item {
+.item {
     text-align: center;
     flex: 1 1 calc(33% - 20px);
     max-width: 220px;
 }
 
-.metric-number {
+.numero {
     font-size: 64px;
     font-weight: 800;
     height: 75px;
 }
 
-.metric-label {
+.s-texto {
     font-size: 22px;
     font-weight: 600;
 }
@@ -222,7 +222,7 @@ header {
         text-align: center;
     }
 
-    .metric-item {
+    .item {
         flex: 1 1 calc(50% - 20px);
     }
 }
@@ -232,11 +232,11 @@ header {
         font-size: 36px;
     }
 
-    .metrics {
+    .metrica {
         justify-content: center;
     }
 
-    .metric-item {
+    .item {
         flex: 1 1 100%;
         max-width: none;
     }
@@ -247,11 +247,11 @@ header {
         font-size: 28px;
     }
 
-    .metric-number {
+    .numero {
         font-size: 40px;
     }
 
-    .metric-label {
+    .s-texto {
         font-size: 18px;
     }
 }
@@ -324,7 +324,7 @@ header {
     }
 }
 
-.highlight-section {
+.sec-inicio {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -334,11 +334,11 @@ header {
     margin-top: 15px;
 }
 
-.highlight-text {
+.sec-texto {
     max-width: 50%;
 }
 
-.highlight-text h1 {
+.sec-texto h1 {
     font-family: 'Poppins', Sans-serif;
     min-height: 100px;
     font-size: 40px;
@@ -348,7 +348,7 @@ header {
     margin-bottom: 40px;
 }
 
-.highlight-text h1 span {
+.sec-texto h1 span {
     color: #2F9FEA;
     font-weight: 600;
 }
@@ -371,16 +371,16 @@ header {
     box-sizing: border-box;
 }
 
-.highlight-text button:hover {
+.sec-texto button:hover {
     background-color: #2F9FEA;
 }
 
-.highlight-text .btn a {
+.sec-texto .btn a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.highlight-image img {
+.sec-imagem img {
     min-width: 657px;
     max-width: 800px;
     border-radius: 10px;
@@ -602,7 +602,7 @@ header {
     flex-wrap: wrap;
 }
 
-.footer-section {
+.foot-sec {
     flex: 1;
     margin: 10px 20px;
     max-width: 400px;
@@ -646,8 +646,7 @@ p img {
     height: 32px;
 }
 
-/* Contato */
-.contact-info p {
+.contato-info p {
     font-size: 18px;
     font-weight: 400;
     display: flex;
@@ -656,7 +655,7 @@ p img {
     padding: 5px;
 }
 
-.contact-info i {
+.contato-info i {
     margin-right: 10px;
     color: #00A4FF;
 }
@@ -673,19 +672,19 @@ p img {
     text-decoration: underline;
 }
 
-.social-title {
+.social-titulo {
     margin-bottom: 10px;
     font-size: 16px;
     font-weight: bold;
 }
 
-.social-icons {
+.social-icones {
     width: 32px;
     height: 32px;
     display: flex;
 }
 
-.social-icons a {
+.social-icones a {
     color: #ffffff;
     font-size: 20px;
     margin-right: 15px;
@@ -694,16 +693,16 @@ p img {
     height: 32px;
 }
 
-.social-icons a:hover {
+.social-icones a:hover {
     color: #00A4FF;
 }
 
-.addresses p {
+.ende p {
     margin-top: 15px;
     font-size: 14px;
 }
 
-.addresses i {
+.ende i {
     margin-right: 10px;
     color: #00A4FF;
 }

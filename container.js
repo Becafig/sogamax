@@ -1,13 +1,14 @@
 const container = document.querySelector('.container');
+// seleciona o container no console
 
 window.addEventListener('scroll', () => {
+    // ativa com oevento de rolagem
   const scrollPosition = window.scrollY;
 
-  // Calcula o novo tamanho baseado na rolagem
-  const newWidth = Math.min(1200 + scrollPosition * 0.5, 1400); // Limita a largura a 1300px
-  const newHeight = Math.min(336 + scrollPosition * 0.3, 500);  // Limita a altura a 500px
+  const newWidth = Math.min(1200 + scrollPosition * 0.5, 1400);
+  const newHeight = Math.min(336 + scrollPosition * 0.3, 500); 
 
-  // Aplica os novos tamanhos ao elemento
   container.style.width = `${newWidth}px`;
   container.style.height = `${newHeight}px`;
 });
+// calculo position 0.5 width e 0.3 height maximo 1400px width e 500 height, valor mesclado

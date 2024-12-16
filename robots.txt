@@ -1,17 +1,13 @@
-# Permite que todos os bots acessem o site
 User-agent: *
 Disallow:
 
-# Bloquear acesso a diretórios sensíveis
 Disallow: /admin/
 Disallow: /private/
 Disallow: /tmp/
 Disallow: /logs/
 
-# Permitir indexação de imagens e CSS
 Allow: /wp-content/uploads/
 Allow: /wp-content/themes/
 
-# Sitemap do site
 Sitemap: https://www.sogamax.com.br/sitemap.xml
 

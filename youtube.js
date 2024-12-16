@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
             iframe.style.width = '100%';
             iframe.style.height = '100%';
 
-            placeholder.innerHTML = ''; // Remove o placeholder
-            placeholder.appendChild(iframe); // Adiciona o iframe
+            placeholder.innerHTML = ''; 
+            placeholder.appendChild(iframe);
         });
     });
 });
